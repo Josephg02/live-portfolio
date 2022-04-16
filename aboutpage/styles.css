@@ -2,13 +2,16 @@
     margin: 0;
 }
 
-body {
-    font-family: 'Bebas Neue', cursive;
+.background {
     background-image: url(../images/column.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+body {
+    font-family: 'Bebas Neue', cursive;
+    padding-bottom: 0px;
 }
 
 a {
@@ -41,10 +44,6 @@ nav {
     padding-left: 20px;   
 }
 
-main {
-
-}
-
 .hero-small,.hero-big{
     text-align: center;
     justify-content: center;
@@ -67,5 +66,27 @@ main {
 }
 
 .block {
-    background-color: black;
+    background-color: #292724;
+    padding-bottom: 300px;
+    padding-top: 20px;
+    margin-top: 180px;
+}
+
+.about-me {
+    color: white;
+    text-align: center;
+    font-size: 48px;
+}
+
+footer {
+    background-image: url(../images/rome.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 500px;
+}
+
+.about-me-text {
+   color: white
 }
