@@ -4,12 +4,16 @@
 
 body {
     font-family: 'Bebas Neue', cursive;
+    background-image: url(../images/column.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 a {
     text-decoration: none;
     color: white;
-   
 }
 
 ul {
@@ -17,12 +21,8 @@ ul {
     display: flex;
     font-size: 24px;
     padding: 35px;
-    padding-top: 45px;
-  
-}
-
-header {
-    background-image: url(../images/column.jpg);
+    padding-top: 60px;
+    padding-right: 30px;
 }
 
 .logo {
@@ -30,6 +30,7 @@ header {
     font-size: 50px;
     flex: auto;
     padding: 30px;
+    padding-top: 40px;
 }
 
 nav {
@@ -38,4 +39,33 @@ nav {
 
 .one , .two, .three, .four {
     padding-left: 20px;   
+}
+
+main {
+
+}
+
+.hero-small,.hero-big{
+    text-align: center;
+    justify-content: center;
+    color: white;
+    
+}
+
+.hero-small {
+    font-size: 24px;
+    padding-right: 380px;
+}
+
+.hero-big {
+    font-size: 100px;
+}
+
+.hero {
+    margin-top: 80px;
+    padding-right: 280px;
+}
+
+.block {
+    background-color: black;
 }
