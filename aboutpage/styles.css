@@ -67,12 +67,12 @@ nav {
 
 .block {
     background-color: #292724;
-    padding-bottom: 300px;
     padding-top: 20px;
     margin-top: 180px;
+    text-align: center;
 }
 
-.about-me {
+#about-me {
     color: white;
     text-align: center;
     font-size: 48px;
@@ -84,9 +84,60 @@ footer {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-bottom: 500px;
+    padding-top: 400px;
 }
 
 .about-me-text {
    color: white
+}
+
+.blockf {
+    background-color: #292724;
+    text-align: center;
+    color: white;
+    padding-bottom: 10px;
+    
+}
+
+#contact {
+    font-size: 48px;
+    padding-top: 20px;
+}
+
+.email {
+    padding-top: 20px;
+    font-size: 30px;
+}
+
+.number {
+    padding-top: 20px;
+    font-size: 30px;
+}
+
+.phone {
+    max-width: 30px;
+    max-height: auto;
+    padding-right: 10px; 
+}
+
+.git, .linkedin {
+    max-height: auto;
+    padding-top: 30px;
+}
+
+.linkedin {
+    max-width: 70px;
+    padding-left: 20px;
+}
+
+.about-return {
+    padding-top: 300px;
+    padding-bottom: 20px;
+    font-size: 30px;
+    
+}
+
+.contact-return {
+    font-size: 30px;
+    padding-top: 20px;
 }
