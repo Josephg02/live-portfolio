@@ -79,7 +79,7 @@ nav {
 }
 
 footer {
-    background-image: url(../images/rome.jpg);
+    background-image: url(../images/forest.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -88,7 +88,9 @@ footer {
 }
 
 .about-me-text {
-   color: white
+   color: #A9A297;
+   font-size: 25px;
+   font-family: sans-serif;
 }
 
 .blockf {
@@ -96,7 +98,6 @@ footer {
     text-align: center;
     color: white;
     padding-bottom: 10px;
-    
 }
 
 #contact {
@@ -107,11 +108,13 @@ footer {
 .email {
     padding-top: 20px;
     font-size: 30px;
+    color: #93cfa3;
 }
 
 .number {
     padding-top: 20px;
     font-size: 30px;
+    color: #93cfa3;
 }
 
 .phone {
@@ -137,7 +140,7 @@ footer {
     
 }
 
-.contact-return {
+.contact-return,a {
     font-size: 30px;
     padding-top: 20px;
 }
