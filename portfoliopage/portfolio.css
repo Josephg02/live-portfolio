@@ -46,12 +46,13 @@ nav {
     background-color: #292724;
     text-align: center;
     margin-top: 180px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
 
 .work {
     color: white;
     font-size: 48px;
+    padding-top: 20px;
 }
 
 .personal {
@@ -68,7 +69,7 @@ nav {
 }
 
 .personal-text {
-    padding-right: 39em;
+    padding-right: 29em;
     color: white;
     font-size: 20px;
     padding-top: 20px;
