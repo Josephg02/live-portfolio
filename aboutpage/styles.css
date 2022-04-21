@@ -76,6 +76,7 @@ nav {
     color: white;
     text-align: center;
     font-size: 48px;
+    padding-left: 200px;
 }
 
 footer {
@@ -89,7 +90,7 @@ footer {
 
 .about-me-text {
    color: #A9A297;
-   font-size: 25px;
+   font-size: 18px;
    font-family: sans-serif;
 }
 
@@ -134,13 +135,45 @@ footer {
 }
 
 .about-return {
-    padding-top: 300px;
     padding-bottom: 20px;
-    font-size: 30px;
-    
+    font-size: 30px; 
 }
 
 .contact-return,a {
     font-size: 30px;
     padding-top: 20px;
 }
+
+.headers {
+    display: flex;
+    
+}
+
+.my-skills {
+    color: white;
+    font-size: 48px;
+    padding-left: 12em;
+    padding-bottom: 20px;
+}
+
+.skillh, .skillc, .skillj, .skillw {
+    color: #A9A297;
+    padding-left: 24em;
+    font-family: sans-serif;
+    font-size: 24px;
+
+}
+
+.skillh, .skillc, .skillj, .skillw {
+    padding-bottom: 20px;
+}
+
+
+
+.learning {
+    font-size: 48px;
+    color: white;
+    padding-left: 12em;
+    padding-bottom: 20px;
+}
+
